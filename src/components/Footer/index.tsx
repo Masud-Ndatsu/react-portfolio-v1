@@ -1,19 +1,14 @@
 export const Footer = () => {
   return (
-    <footer className="h-80 text-white p-4 py-6 max-w-[1200px] m-auto">
-      <div className="text-2xl ">
-        <div>
-          <h1>Masud Ndatsu</h1>
-          <p>masudndatsu@gmail.com</p>
-          <p>+2347038394890</p>
+    <footer className="text-white p-4 py-8 max-w-[1200px] m-auto">
+      <>
+        <div className="text-center">
+          <h1 className="text-xl">
+            &#169; {new Date().getFullYear()} Masud Ndatsu
+          </h1>
+          <p>Site stats - views</p>
         </div>
-        <div>
-          <h1>Socials</h1>
-          <p>Facebook</p>
-          <p>Twitter</p>
-          <p>LinkedIn</p>
-        </div>
-      </div>
+      </>
     </footer>
   );
 };

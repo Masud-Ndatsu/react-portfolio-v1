@@ -15,8 +15,8 @@ export const Persona = () => {
           Types of projects I have worked on
         </p>
         <div className="text-gray-900 flex flex-wrap gap-2 justify-center sm:justify-start py-4">
-          <button className="py-4 px-8 bg-yellow-200 rounded-lg">B2B</button>
-          <button className="py-4 px-8 bg-green-300 rounded-lg">SaaS</button>
+          <button className="py-4 px-8 bg-white rounded-lg">B2B</button>
+          <button className="py-4 px-8 bg-white rounded-lg">SaaS</button>
           <button className="py-4 px-8 bg-white rounded-lg">Mobile app</button>
           <button className="py-4 px-8 bg-white rounded-lg">Websites</button>
         </div>
@@ -24,9 +24,9 @@ export const Persona = () => {
           Some companies I have worked with
         </p>
         <div className="flex gap-2 my-6">
-          <div className="max-w-48 w-full h-20 rounded bg-red-300"></div>
-          <div className="max-w-48 w-full h-20 rounded bg-red-300"></div>
-          <div className="max-w-48 w-full h-20 rounded bg-red-300"></div>
+          <div className="max-w-48 w-full h-20 rounded bg-purple-600"></div>
+          <div className="max-w-48 w-full h-20 rounded bg-purple-600"></div>
+          <div className="max-w-48 w-full h-20 rounded bg-purple-600"></div>
         </div>
       </div>
     </div>

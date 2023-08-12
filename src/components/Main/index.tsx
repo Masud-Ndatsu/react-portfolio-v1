@@ -34,36 +34,6 @@ export const Main = () => {
               </p>
             </div>
           </div>
-          <div className="py-2">
-            <div className="h-80 w-full bg-red-600 rounded"></div>
-            <div>
-              <h4 className="font-bold">opspad</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                quae veniam accusantium porro ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="py-2">
-            <div className="h-80 w-full bg-red-600 rounded"></div>
-            <div>
-              <h4 className="font-bold">opspad</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                quae veniam accusantium porro ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="py-2">
-            <div className="h-80 w-full bg-red-600 rounded"></div>
-            <div>
-              <h4 className="font-bold">opspad</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                quae veniam accusantium porro ipsum.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </main>
