@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
-import countapi from "countapi-js";
 
 export const Footer = () => {
   const [viewCount, setViewCount] = useState(0);
 
   useEffect(() => {
-    countapi
-      .visits(
-        "https://api.countapi.xyz/hit/https://masud-biggie.vercel.app/visits"
-      )
-      .then((result) => {
-        console.log(result);
-        setViewCount(result.value);
+    fetch("https://api.countapi.xyz/hit/https://masud-biggie.vercel.app/visits")
+      .then((response) => response.json())
+      .then((data) => {
+        // Assuming your data structure has a 'count' property
+        setViewCount(data.count);
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
   }, []);
 
   return (
