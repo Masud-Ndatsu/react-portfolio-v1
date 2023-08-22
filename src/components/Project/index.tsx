@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <>
       <article className="bg-gray-900 text-white py-6 max-w-[1200px] m-auto">
-        <h2 className="p-4 font-bold text-3xl">Personal Projects</h2>
+        <h2 className="p-4 font-bold text-3xl">Projects</h2>
         <div className="my-2 p-4  grid sm:grid-cols-2 md:grid-cols-4 gap-2">
           <div className="h-64 rounded relative">
             <img src={blogApi} alt="" className="w-full h-full" />
