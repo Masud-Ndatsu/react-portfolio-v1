@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <>
       <Header />
-      <div className="bg-purple-300 ">
+      <div className="g-gray-900">
         <Main />
       </div>
       <div className="bg-gray-900">

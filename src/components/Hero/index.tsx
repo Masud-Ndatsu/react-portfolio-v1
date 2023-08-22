@@ -6,9 +6,14 @@ export const Hero = () => {
           "Crafting Digital Solutions: Explore the Innovations in a Software
           Engineer's Portfolio"
         </h2>
-        <button className="bg-purple-900 rounded-lg px-[3rem] py-4">
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHFJrKvSCHrWpDqktdWxXTnSJSGKNdtClFXpXTDXCLgkRkgqrgFqsffqWswkXTRjCKddq"
+          className="bg-purple-900 rounded-lg px-[3rem] py-4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Work with me
-        </button>
+        </a>
       </div>
       <div>
         <p className="text-lg m-2">2+ years work experience</p>
