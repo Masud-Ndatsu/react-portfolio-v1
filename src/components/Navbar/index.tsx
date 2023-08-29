@@ -24,7 +24,7 @@ export const Navbar = () => {
           Send an Email
         </a>
         <div
-          className="text-3xl sm:hidden active:scale-x-50"
+          className="text-5xl sm:hidden active:scale-[0.99]"
           onClick={() => setOpen(!open)}
         >
           <HiOutlineMenuAlt4 />
