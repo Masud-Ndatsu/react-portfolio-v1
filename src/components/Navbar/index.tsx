@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
 export const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <nav className="flex gap-4 items-center justify-between max-w-[1200px] m-auto">
+    <nav className="flex gap-4 items-center justify-between max-w-[1200px] m-auto relative">
       <h3 className="text-2xl font-bold">Masud Ndatsu</h3>
       <div className="flex items-center gap-2">
         <a
@@ -21,10 +23,27 @@ export const Navbar = () => {
         >
           Send an Email
         </a>
-        <div className="text-3xl sm:hidden">
+        <div
+          className="text-3xl sm:hidden active:scale-x-50"
+          onClick={() => setOpen(!open)}
+        >
           <HiOutlineMenuAlt4 />
         </div>
       </div>
+      <>
+        {open && (
+          <div className="py-8 px-6 rounded-md bg-purple-500 sm:hidden absolute top-16 right-2">
+            <a
+              href="https://drive.google.com/file/d/1fzE3u5JFam0P2XacuSsNVhtfD7kBLpiv/view?usp=sharing"
+              className="py-4 px-10 bg-white text-purple-950 rounded-lg  sm:inline-block shadow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My Resume
+            </a>
+          </div>
+        )}
+      </>
     </nav>
   );
 };

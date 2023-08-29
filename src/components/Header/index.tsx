@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Hero } from "../Hero";
 import { Navbar } from "../Navbar";
 import { Persona } from "../Persona";
@@ -7,10 +8,10 @@ export const Header = () => {
     <header className="bg-gray-900 text-white h-full p-4 md:px-6">
       <Navbar />
       <div className="flex gap-4 my-3 font-mono max-w-[1200px] m-auto">
-        <a href="#" className="text-red-500" target="_blank">
+        <Link to="/" className="text-red-500">
           Home
-        </a>
-        <a href="#" target="_blank">
+        </Link>
+        <a href="https://github.com/Masud-Ndatsu" target="_blank">
           My Github
         </a>
       </div>
