@@ -7,13 +7,13 @@ export const Home = () => {
   return (
     <>
       <Header />
-      <div className="g-gray-900">
+      <div className="bg-gray-900 border-y-2 border-gray-700">
         <Main />
       </div>
-      <div className="bg-gray-900">
+      <div className="bg-gray-900 py-12">
         <Projects />
       </div>
-      <div className="bg-purple-600">
+      <div className="bg-gray-900 border-t-2 border-gray-700">
         <Footer />
       </div>
     </>

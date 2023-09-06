@@ -1,36 +1,49 @@
-import blogApi from "../../assets/projects/blog.png";
-import portfolio from "../../assets/projects/porfolio.png";
+import { FiExternalLink } from "react-icons/fi";
+import opspad from "../../assets/projects/opspad.png";
+import storeAdmin from "../../assets/projects/store-admin.png";
 
 export const Projects = () => {
   return (
     <>
       <article className="bg-gray-900 text-white py-6 max-w-[1200px] m-auto">
         <h2 className="p-4 font-bold text-3xl">Projects</h2>
-        <div className="my-2 p-4  grid sm:grid-cols-2 md:grid-cols-4 gap-2">
-          <div className="h-64 rounded relative">
-            <img src={blogApi} alt="" className="w-full h-full" />
-            <a
-              href="https://blog-ts-api.onrender.com/docs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="absolute top-1/2 right-1/2 translate-x-1/2 bg-purple-900 p-2 hover:scale-x-[1.1] transition-all"
-            >
-              CLICK
-            </a>
+        <div className="my-2 p-4  grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="rounded-md border p-2 border-gray-300">
+            <img src={opspad} alt="" className="w-full h-64 object-cover" />
+            <div>
+              This is a platform that enables server relalted professionals to
+              monitor different server logs on their mobile phones.
+            </div>
+            <div className="flex justify-between">
+              <span className="text-green-400">Live</span>
+              <a
+                href="https://opspad-theta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
+                <FiExternalLink />
+              </a>
+            </div>
           </div>
-          <div className="h-64 rounded relative">
-            <img src={portfolio} alt="" className="w-full h-full" />
-            <a
-              href="https://masud-biggie.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="absolute top-1/2 right-1/2 translate-x-1/2 bg-purple-900 p-2 hover:scale-x-[1.1] transition-all"
-            >
-              CLICK
-            </a>
+          <div className="rounded-md border border-gray-300 p-2 ">
+            <img src={storeAdmin} alt="" className="w-full h-64" />
+            <div>
+              This is a B2B ecommerce platform that allows user to make payments
+              through their wallet accounts.
+            </div>
+            <div className="flex justify-between">
+              <span className="text-green-400">Live</span>
+              <a
+                href="https://store-reload-landing-page.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
+                <FiExternalLink />
+              </a>
+            </div>
           </div>
-          {/* <div className="h-64 bg-green-700 rounded"></div>
-          <div className="h-64 bg-green-700 rounded"></div> */}
         </div>
       </article>
     </>

@@ -4,7 +4,7 @@ import { RiUserSettingsFill } from "react-icons/ri";
 
 export const Main = () => {
   return (
-    <main className="p-6 max-w-[1200px] m-auto">
+    <main className="p-6 max-w-[1200px]  m-auto">
       <div className="border-2 border-gray-900 rounded-xl bg-white p-2">
         <h2 className="font-bold text-3xl">My Services</h2>
         <div className="grid sm:grid-cols-2  md:grid-cols-3  gap-2">

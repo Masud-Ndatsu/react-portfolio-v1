@@ -16,15 +16,13 @@ export const Hero = () => {
         </a>
       </div>
       <div>
-        <p className="text-lg m-2">2+ years work experience</p>
-        <h4 className="font-bold text-xl">Languages</h4>
+        <h4 className="font-bold text-xl">Technologies</h4>
         <div className="text-gray-900 flex flex-wrap gap-2 my-6">
           <button className="p-4 bg-white rounded-lg">Nodejs</button>
           <button className="p-4 bg-white rounded-lg">JavaScript</button>
           <button className="p-4 bg-white rounded-lg">TypeScript</button>
-          <button className="p-4 bg-white rounded-lg">SQL</button>
-          <button className="p-4 bg-white rounded-lg">HTML</button>
-          <button className="p-4 bg-white rounded-lg">TypeScript</button>
+          <button className="p-4 bg-white rounded-lg">React</button>
+          <button className="p-4 bg-white rounded-lg">Java</button>
         </div>
       </div>
     </section>
