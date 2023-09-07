@@ -11,7 +11,7 @@ export const Projects = () => {
           <div className="rounded-md border p-2 border-gray-300">
             <img src={opspad} alt="" className="w-full h-64 object-cover" />
             <div>
-              This is a platform that enables server relalted professionals to
+              This is a platform that enables professionals ( e.g Devops) to
               monitor different server logs on their mobile phones.
             </div>
             <div className="flex justify-between">
@@ -29,8 +29,9 @@ export const Projects = () => {
           <div className="rounded-md border border-gray-300 p-2 ">
             <img src={storeAdmin} alt="" className="w-full h-64" />
             <div>
-              This is a B2B ecommerce platform that allows user to make payments
-              through their wallet accounts.
+              This is a B2B ecommerce platform that allows users (Retailers) to
+              purchase their goods directly from manufacturers and also make
+              their payments through their e-wallets.
             </div>
             <div className="flex justify-between">
               <span className="text-green-400">Live</span>
