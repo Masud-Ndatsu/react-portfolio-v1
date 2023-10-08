@@ -36,7 +36,7 @@ export const Projects = () => {
                         <div className="flex justify-between">
                             <span className="text-green-400">Live</span>
                             <a
-                                href="https://store-reload-landing-page.vercel.app/"
+                                href="https://storereload-landing-page.onrender.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=""
